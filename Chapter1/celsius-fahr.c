@@ -16,7 +16,7 @@ int main()
 
     celsius = lower;
 
-    printf("Таблица соответствия температур по Цельсию и Фаргенгейту\n");
+    printf("Таблица соответствия температур по Цельсию и Фаренгейту\n");
 
     
     for(fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)
