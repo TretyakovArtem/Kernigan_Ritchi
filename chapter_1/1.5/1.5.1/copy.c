@@ -4,9 +4,8 @@ int main()
 {
     int c;
 
-    c = getchar();
-    while(c != EOF) {
+    while((c = getchar()) != '\n') {
         putchar(c);
-        c = getchar();
     }
+    printf("\n");
 }
